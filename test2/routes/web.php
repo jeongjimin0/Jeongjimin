@@ -33,6 +33,6 @@ Route::get('/hello', function(){
   return view('hello');
 });
 
-Route::get('/', function(){
-  return view('contact');
+Route::get('/welcome', function(){
+  return view('welcome');
 });

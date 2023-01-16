@@ -31,6 +31,10 @@
       text-align: left;
     }
 
+    dt, dd{
+      padding-top: 15px;
+    }
+
 </style>
 
 
