@@ -24,6 +24,10 @@
     nav ul li a{ text-decoration: none; color: black; line-height: 3em; }
     nav ul li a:hover{ color: red;}
 
+    a{
+      text-decoration: none;
+    }
+
     .project--one{
       border-bottom: 1px solid #EAEAEA;
       margin-top: 40px;

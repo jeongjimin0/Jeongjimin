@@ -19,7 +19,7 @@
     <div class="row">
     <h5 class="project--one"> Projects </h5>
     <dl class="row">
-  <dt class="col-sm-3">유지보수 시스템</dt>
+    <dt class="col-sm-3"><a href="/text">유지보수 시스템</dt></a>
   <dd class="col-sm-9">유지보수 시스템 html, css 작성, 데이터베이스[Adminer] 연결</dd>
   <dt class="col-sm-3">졸업작품</dt>
   <dd class="col-sm-9">
@@ -37,6 +37,7 @@
     </dl>
   </dd>
 </dl>
+
   </div>
 </body>
 
