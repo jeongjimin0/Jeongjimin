@@ -1,6 +1,7 @@
 <html>
 
 
+  <link rel="stylesheet" href="{{ asset("css/app.css")}}">
 
   <!-- bootstrap 설정 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -30,7 +31,7 @@
 
     .project--one{
       border-bottom: 1px solid #EAEAEA;
-      margin-top: 40px;
+      margin-top: 60px;
       padding-bottom: 20px;
       text-align: left;
     }
@@ -44,6 +45,15 @@
 
 <body>
 
+<script src="/js/script.js"></script>
+
+<div id="wrapper">
+  @include('header')
+
+
+
 @yield('content')
+</div>
 </body>
 </div>
+</html>

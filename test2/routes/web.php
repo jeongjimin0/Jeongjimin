@@ -36,3 +36,15 @@ Route::get('/hello', function(){
 Route::get('/welcome', function(){
   return view('welcome');
 });
+
+Route::get('/text', function(){
+  return view('text');
+});
+
+Route::get('/test', function(){
+  return view('test');
+});
+
+Route::get('/test1', function(){
+  return view('test1');
+});
