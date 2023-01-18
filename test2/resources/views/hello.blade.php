@@ -19,7 +19,12 @@
     <div style="margin-top: 50px;"></div>
     <button class="accordion">Projects</button>
     <div class="panel">
-    <p>Lorem ipsum...</p>
+        <dt>졸업작품</dt>
+        <dd>
+        <p>디자이너 1, 메인화면 2, 로그인창 2, 백엔드 1, 총괄 1명으로 구성</p>
+        <p>메인 페이지 화면 설계, 기능 구현 담당</p>
+        <p>Android studio, Photoshop, Java</p>
+        </dd>
     </div>
 
     <button class="accordion">Experiences</button>

@@ -16,37 +16,63 @@
   </nav>
 
   <div class="row">
-    <h5 class="project--one"><strong> Projects </strong> </h5>
-
-    <dl class="row">
-    <dt class="col-sm-3"><a href="/text">유지보수 시스템</dt></a>
-    <dd class="col-sm-9"> html, css 작성, 데이터베이스[Adminer] 연결</dd>
-    <dt class="col-sm-3">졸업작품</dt>
-    <dd class="col-sm-9">
-    <p> for the term.</p>
-    <p>And some more placeholder definition text.</p>
+    <h5 class="project--one"><strong> Front-End Developer </strong> </h5>
+    <dl class="row" style="padding-top: 50px;">
+    <dt class="col-sm-5">Front-End</dt>
+    <dd class="col-sm-7">
+    <p> HTML, CSS</p>
+    <p>CSS Framework: Bootstrap 5</p>
     </dd>
-    <dt class="col-sm-3">Another term</dt>
-    <dd class="col-sm-9">This definition is short, so no extra paragraphs or anything.</dd>
-
-    <dt class="col-sm-3">Nesting</dt>
-    <dd class="col-sm-9">
-    <dl class="row">
-      <dt class="col-sm-4">Nested definition list</dt>
-      <dd class="col-sm-8">I heard you like definition lists. Let me put a definition list inside your definition list.</dd>
-    </dl>
-  </dd>
+    <dt class="col-sm-5">Back-End</dt>
+    <dd class="col-sm-7">
+    <p>PHP</p>
+    <p>PHP Framework: Laravel 6.*</p>
+    </dd>
+    <dt class="col-sm-5">Collaboration & Tools</dt>
+    <dd class="col-sm-7">
+    <p>Atom</p>
+    <p>Github, Flow</p>
+    <p>Adminer, phpMyAdmin</p>
+    </dd>
 </dl>
 
-<div class="row" style="padding-bottom: 60px;">
+<div class="row" style="padding-bottom: 50px;">
   <h5 class="project--one"><strong> Github </strong></h5>
-  <dt class="col-sm-3">주소:</dt>
-  <dd class="col-sm-9"><a href="<?php echo url('https://github.com/jeongjimin0/Jeongjimin.git'); ?>">https://github.com/jeongjimin0/Jeongjimin.git</dd></a>
+  <dt class="col-sm-5">주소:</dt>
+  <dd class="col-sm-7"><a href="<?php echo url('https://github.com/jeongjimin0/Jeongjimin.git'); ?>">https://github.com/jeongjimin0/Jeongjimin.git</dd></a>
+  </dd>
 </div>
 
-  <div class="row">
-    <h5 class="project--one"><strong> 자격증 </strong></h5>
+  <div class="row" style="padding-bottom: 50px;">
+    <h5 class="project--one"><strong>학력</strong></h5>
+    <dt class="col-sm-5">학교</dt>
+    <dd class="col-sm-7">순천대학교</dd>
+    <dt class="col-sm-5">학점</dt>
+    <dd class="col-sm-7">3.85/4.5</dd>
+    <dt class="col-sm-5">논문 & 졸업작품</dt>
+    <dd class="col-sm-7">졸업작품</dd>
   </div>
+
+  <div class="row" style="padding-bottom: 50px;">
+    <h5 class="project--one"><strong>경력</strong></h5>
+    <dt class="col-sm-5">한국공학기술연구원(KETRI)</dt>
+    <dd class="col-sm-7">
+    <p>직급: 인턴</p>
+    <p>근무부서: 개발팀</p>
+    <p>담당업무: 시스템 관리 및 보안</p>
+    </dd>
+  </div>
+
+  <div class="row" style="padding-bottom: 100px;">
+    <h5 class="project--one"><strong>자격증</strong></h5>
+    <dt class="col-sm-5">정보처리기사</dt>
+    <dd class="col-sm-7">합격구분 : 필기합격
+    </dd>
+    <dt class="col-sm-5">빅데이터실무활용능력1급</dt>
+    <dd class="col-sm-7">합격구분 : 최종합격
+    </dd>
+  </div>
+
 
 </body>
 

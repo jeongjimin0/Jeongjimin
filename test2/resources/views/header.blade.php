@@ -14,12 +14,12 @@ body {
 /* Header/Logo Title */
 .header {
   width: 100%;
-  padding: 80px;
+  padding: 100px;
   background: url("/images/night.jpg");
   opacity: 0.5;
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /* Page Content */
@@ -29,8 +29,8 @@ body {
 <body>
 
 <div class="header">
-  <h1>정지민</h1>
-  <p>ㅎㅎ</p>
+  <h1>포트폴리오</h1>
+  <p>이름: 정지민 Email: wjdwjd12341234@gmail.com</p>
 </div>
 
 </body>
