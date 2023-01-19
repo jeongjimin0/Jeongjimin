@@ -1,37 +1,43 @@
+<link rel="stylesheet" href="{{ asset("css/header.css")}}">
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-<title>Page Title</title>
+<title>JJM Portpolio</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 /* Style the body */
-body {
-  font-family: Arial;
-  margin: 0;
-}
 
 /* Header/Logo Title */
-.header {
+.header--images {
+  padding-bottom: 600px;
   width: 100%;
-  padding: 100px;
-  background: url("/images/night.jpg");
-  opacity: 0.5;
-  text-align: center;
-  color: white;
-  font-size: 20px;
+  background: url("/images/header.jpeg");
+  opacity: 0.6;
 }
 
-/* Page Content */
-.content {padding:20px;}
 </style>
 </head>
 <body>
 
-<div class="header">
-  <h1>포트폴리오</h1>
-  <p>이름: 정지민 Email: wjdwjd12341234@gmail.com</p>
+
+
+<div class="header--images">
+  <div id="task-container">
+    <div id="task-header">
+      <span><a href="/"><span style="font-size:18px;">JJM</span> <br/>Portpolio</a></span>
+    </div>
+    <ul name = "sub-menuLink">
+      <li name = "sub-menuLink"><a class= "menuLink" href="">About me</a></li>
+      <li name = "sub-menuLink"><a class= "menuLink" href="">Skill</a></li>
+      <li name = "sub-menuLink"><a class= "menuLink" href="">Archiving</a></li>
+      <li name = "sub-menuLink"><a class= "menuLink" href="">Projects</a></li>
+      <li name = "sub-menuLink"><a class= "menuLink" href="">Archiving</a></li>
+      <!-- 2022.12.26 : LYJ : 청소구역 추가 -->
+    </ul>
+  </div>
 </div>
+
 
 </body>
 </html>

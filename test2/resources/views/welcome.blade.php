@@ -16,6 +16,18 @@
   </nav>
 
 
+  <div class="header-left">
+    <ul>
+                <li><a href="/" class="active brich-logo"><img src="/images/admin/img1.png" width="86" alt="" class="logo"></a></li>
+                <li class="left-btn"><a class="header-btn" href="/event" target="_self">이벤트</a></li>
+                <li class="left-btn"><a class="header-btn" href="/faq" target="_self">자주 묻는 질문</a></li>
+                <li class="left-btn"><a class="header-btn" href="https://main.co.kr" target="_blank">브리치</a></li>
+                <li class="left-btn"><a class="header-btn" href="/tutorial" target="_self">사용 가이드</a></li>
+                <li class="left-btn"><a class="header-btn" href="#main-contact-info">상담 신청</a></li>
+    </ul>
+</div>
+
+
 
   </div>
 </body>
