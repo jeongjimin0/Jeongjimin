@@ -8,17 +8,13 @@ font-style: normal;
 
 /** 제목 css **/
 #task-container {
-  width: 90%;
+  width: 80%;
   margin: 0px auto;
   height: 80px;
 }
 
-#task-header {
+.task-header {
   float:left;
-  width: 90%;
-  padding : 10px 0px 10px 10px;
-  margin-bottom: 5px;
-  height:100px;
 	color: #353535;
 }
 
@@ -37,6 +33,55 @@ span a:hover{
   color: #A57E7E;
   text-decoration:none;
 }
+
+.h1--title{
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.h1--content{
+
+  font-family: 'GmarketSansMedium';
+  font-size: 40px;
+  line-height: 0.9em;
+
+}
+
+.ghost-button{
+  display: inline-block;
+  position: relative;
+
+  padding: 10px 40px;
+  border: 3px solid #A57E7E;
+  color: #353535;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.box{
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+#top{
+  width: 70%;
+  height: 100px;
+  padding: 100px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 70px;
+  left: 310px;
+}
+
+#boxstyle{
+  width: 100%;
+  background-color: #F2CB61;
+  height: 40%;
+}
+
 h2 a{
   text-decoration:none;
   padding: 20px 0;
@@ -75,11 +120,12 @@ h2 a:hover{
 }
 
 ul[name="sub-menuLink"]{
+
 	position: absolute;
 	display: inline-block;
 	right: 0;
 	top: 0;
-  margin-right: 15px;
+  width: 45%;
 }
 
 ul li[name="sub-menuLink"]{
@@ -87,8 +133,8 @@ ul li[name="sub-menuLink"]{
 	float: left;
   text-align:center;
   /* width: 150px; */
-	padding: 20 60px;
-	color:#FFFFFF;
+	padding: 20 45px;
+	color:#A57E7E;
 }
 
 /* START : 2022.12.27 : KEH : 서브 헤더 */
