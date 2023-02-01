@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1><a href="index.html">WEB</a></h1>
+
+<input id="night_day" type="button" value="night" onclick="
+var target = document.querySelector('body');
+    if(this.value === 'night'){
+        target.style.backgroundColor = 'black';
+        target.style.color = 'white';
+        this.value = 'day';
+        } else {
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black';
+        this.value = 'night';
+        }
+    ">
+
+    <h2 style="color:powderblue; background-color: coral;">JavaScript</h2>
+    <ol>
+        <li><a href="">HTML </a></li>
+    </ol>
+    <p>
+        Javascript, often abbreviated as JS, is a high-level, dynamic,</br>
+        weakly typed, prototyle-based, multi-paradigm, and interpreted
+        programming language. Alongside HTML and CSS, JavaScript is on
+        of the three core technologies of World Wide Web content
+    </p>
+    <input type="button" value="night" onclick="
+        if(this.value === 'night'){
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'white';
+            this.value = 'day';
+            } else {
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.color = 'black';
+            this.value = 'night';
+            }
+        ">
+</body>
+</html>
