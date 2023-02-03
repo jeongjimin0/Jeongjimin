@@ -1,0 +1,139 @@
+/** 제목 폰트 **/
+@font-face {
+    font-family: 'GyeonggiTitleM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+
+    #task-container {
+      width: 80%;
+      margin: 0px auto;
+      height: 80px;
+    }
+    
+    .task-header {
+      float:left;
+        color: #353535;
+    }
+    
+    
+    span a{
+      text-decoration:none;
+      margin:0 auto;
+      font-family: 'GyeonggiTitleM';
+      color: black;
+      font-size:30px;
+      opacity: 1;
+    }
+    
+    span a:hover{
+      color: #A57E7E;
+      text-decoration:none;
+    }
+    
+    .h1--title{
+      text-align: center;
+      margin: 0 auto;
+    }
+    
+    .h1--content{
+    
+      font-family: 'GmarketSansMedium';
+      font-size: 40px;
+      line-height: 0.9em;
+    
+    }
+    
+    .ghost-button{
+      display: inline-block;
+      position: relative;
+    
+      padding: 10px 40px;
+      border: 3px solid #A57E7E;
+      color: #353535;
+      border-radius: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    .box{
+      box-sizing: border-box;
+      text-align: center;
+    
+    }
+    
+    #top{
+      width: 70%;
+      height: 100px;
+      padding: 100px;
+      box-sizing: border-box;
+      position: absolute;
+      top: 70px;
+      left: 290px;
+    }
+    
+    #boxstyle{
+      width: 100%;
+      height: 65%;
+    }
+    
+    h2 a{
+      text-decoration:none;
+      padding: 20px 0;
+      margin:0 auto;
+      font-family: 'GyeonggiTitleM';
+      color: #EFF2FB;
+    }
+    h2 a:hover{
+      color: #EFF2FB;
+      text-decoration:none;
+    }
+    
+    h2 a{
+      text-decoration:none;
+      padding: 20px 0;
+      margin:0 auto;
+      font-family: 'GyeonggiTitleM';
+      color: #EFF2FB;
+    }
+    h2 a:hover{
+      color: #EFF2FB;
+      text-decoration:none;
+    }
+    
+    .menuLink {
+
+      color: #353535;
+      display: block;
+
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    
+    .menuLink:hover {
+        color: #A57E7E;
+    }
+    
+    ul[name="sub-menuLink"]{
+    
+        position: absolute;
+        display: inline-block;
+        right: 0;
+        top: 0;
+      width: 45%;
+    }
+    
+    ul li[name="sub-menuLink"]{
+        position: relative;
+        float: left;
+      text-align:center;
+      /* width: 150px; */
+        padding: 20 45px;
+        color:#A57E7E;
+    }
+
+
+    
